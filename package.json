@@ -1,0 +1,16 @@
+{
+  "name": "@sled/set-transform",
+  "version": "0.0.1",
+  "description": "to delete",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sledjs/setTransform.git"
+  },
+  "author": "Damian Martyniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sledjs/setTransform/issues"
+  },
+  "homepage": "https://github.com/sledjs/setTransform#readme"
+}
