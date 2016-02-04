@@ -1,6 +1,10 @@
 'use strict';
 
 module.exports = function setTransform($elem, attr) {
-  $elem.transform = attr;
-  $elem.webkitTransform = attr;
+  if (!$elem) return false;
+
+  Object.assign($elem.style, {
+    transform: attr,
+    webkitTransform: attr,
+  });
 };
